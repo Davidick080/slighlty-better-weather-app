@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XMLWeather
+namespace slighlty_better_weather_app
 {
     public class Day
     {
-        public string date,city,country, currentTemp, currentTime, condition, location, tempHigh, tempLow,
-          windSpeed, windDirection, precipitation, visibility;
+        //string for 
+        public string  weatherTracker ,date,lastupdate,humidity,sunRise,sunSet,weather,city,country, currentTemp, currentTime, condition, location, tempHigh, tempLow,
+          windSpeed, windDirection, precipitation, visibility,celceus;
 
         public Day()
         {
-            date = city = country =currentTemp = currentTime = condition = location = tempHigh = tempLow
+           weatherTracker= date=humidity=lastupdate =sunSet=celceus=sunRise=weather= city = country =currentTemp = currentTime = condition = location = tempHigh = tempLow
                 = windSpeed = windDirection = precipitation = visibility = "";
         }
     }

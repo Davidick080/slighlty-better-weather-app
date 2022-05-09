@@ -91,6 +91,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\clear skys.jpg" />
+    <None Include="Resources\cloudy skies image.jpg" />
+    <None Include="Resources\rain image.jpg" />
+    <None Include="Resources\rain.jpeg" />
+    <None Include="Resources\snow image.jpg" />
+    <None Include="Resources\sun image.jpg" />
     <Content Include="XML1 aka Weather.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
